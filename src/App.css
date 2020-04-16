@@ -1,5 +1,12 @@
 .App {
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  background-color: navy;
+  color: white;
 }
 
 .App-logo {
@@ -35,4 +42,15 @@
   to {
     transform: rotate(360deg);
   }
+}
+.NASAcard {
+  border: 1px solid white;
+  background-color: black;
+  padding: 1rem;
+  border-radius: 1rem;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
 }
